@@ -4,7 +4,7 @@
 
 using namespace std;
 int main() {
-    ifstream archivoEntrada ("input/archivoEntrada.txt");
+    ifstream archivoEntrada ("input/archivoEntradas.txt");
     ofstream archivoSalida ("output/archivoSalida.txt");
 
     if (archivoEntrada.is_open() && archivoSalida.is_open()) {
